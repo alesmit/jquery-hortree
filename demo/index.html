@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HorTree - jQuery Horizontal Hierarchical Tree</title>
+    <link rel="stylesheet" href="../dist/jquery.hortree.css">
+</head>
+<body>
+
+<div id="my-container"></div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+
+<!-- jQuery Line plugin : https://github.com/tbem/jquery.line -->
+<script src="jquery.line.js" type="text/javascript"></script>
+
+<!-- jQuery HorTree plugin : https://github.com/alesmit/jquery-hortree -->
+<script src="../dist/jquery.hortree.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    (function () {
+
+        $.getJSON('data.json', function (jsonData) {
+            $('#my-container').hortree({
+                data: jsonData
+            });
+        });
+
+    })();
+
+</script>
+
+</body>
+</html>

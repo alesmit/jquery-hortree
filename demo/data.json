@@ -1,0 +1,64 @@
+[
+  {
+    "description": "Element ROOT",
+    "children": [
+      {
+        "description": "Element 1",
+        "children": [
+          {
+            "description": "Element 1.1",
+            "children": []
+          },
+          {
+            "description": "Element 1.2",
+            "children": [
+              {
+                "description": "Element 1.2.1",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Element 2",
+        "children": [
+          {
+            "description": "Element 2.1",
+            "children": []
+          },
+          {
+            "description": "Element 2.2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "description": "Element 3",
+        "children": [
+          {
+            "description": "Element 3.1",
+            "children": []
+          },
+          {
+            "description": "Element 3.2",
+            "children": []
+          },
+          {
+            "description": "Element 3.3",
+            "children": [
+              {
+                "description": "Element 3.3.1",
+                "children": []
+              },
+              {
+                "description": "Element 3.3.2",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
