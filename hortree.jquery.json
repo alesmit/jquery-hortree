@@ -3,11 +3,11 @@
 	"title": "jQuery HorTree",
 	"description": "Render an horizontal hierarchical tree from a JSON schema.",
 	"keywords": [
-		"jquery-plugins",
-		"horizontal tree",
 		"hortree",
-		"hierarchical tree json",
-		"json tree"
+		"jquery-plugins",
+		"horizontal-tree",
+		"hierarchical-tree",
+		"json-tree"
 	],
 	"version": "1.0.0",
 	"author": {
