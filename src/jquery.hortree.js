@@ -81,6 +81,12 @@
 
     }
 
+    function toDelete(){
+
+
+
+    }
+
     /**
      * draw lines schema between entries
      * @param options
