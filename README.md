@@ -36,3 +36,6 @@ You can provide a configuration object as first parameter to manage content and 
 
 `description` content is rendered in a `<div>` element with the class `.hortree-label`. Modify it as your need to get the best look and feel.
 
+## License
+
+[MIT](./LICENSE) © 2017 [alesmit](https://github.com/alesmit)
