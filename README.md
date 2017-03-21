@@ -1,6 +1,8 @@
 # jquery-hortree
 This jQuery plugin will render an horizontal hierarchical tree starting from a JSON schema
 
+![jQuery HorTree example](https://raw.githubusercontent.com/alesmit/alesmit.github.io/master/demo/jquery-hortree/screenshot.png)
+
 ## Demo
 
 [See a demo here](https://alesmit.github.io/demo/jquery-hortree/)
