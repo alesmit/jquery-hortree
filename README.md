@@ -11,7 +11,7 @@ This jQuery plugin will render an horizontal hierarchical tree starting from a J
 
 1. Include jQuery
 2. Include [jquery.line.js](https://github.com/tbem/jquery.line) plugin (credits to [tbem](https://github.com/tbem))
-3. Include __jquery.hortree.js__ and __jquery.hortree.css__
+3. Include __dist/jquery.hortree.min.js__ and __dist/jquery.hortree.css__
 
 ```javascript
 $('#your-div').hortree({
