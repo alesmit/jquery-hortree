@@ -1,0 +1,31 @@
+{
+  "name": "jquery-hortree",
+  "version": "1.0.1",
+  "description": "This jQuery plugin will render an horizontal hierarchical tree starting from a JSON schema",
+  "main": "dist/jquery.hortree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alesmit/jquery-hortree.git"
+  },
+  "keywords": [
+    "jquery",
+    "hortree",
+    "horizontal-tree"
+  ],
+  "author": "Alessandro Mitelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alesmit/jquery-hortree/issues"
+  },
+  "homepage": "https://github.com/alesmit/jquery-hortree#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2"
+  },
+  "dependencies": {}
+}
