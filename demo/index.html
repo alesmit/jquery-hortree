@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>HorTree - jQuery Horizontal Hierarchical Tree</title>
-    <link rel="stylesheet" href="../src/jquery.hortree.css">
+    <link rel="stylesheet" href="../dist/jquery.hortree.css">
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 <script src="jquery.line.js" type="text/javascript"></script>
 
 <!-- jQuery HorTree plugin : https://github.com/alesmit/jquery-hortree -->
-<script src="../src/jquery.hortree.js" type="text/javascript"></script>
+<script src="../dist/jquery.hortree.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 
@@ -50,7 +50,8 @@
                         description: "Element 2",
                         children: [
                             {
-                                description: "Element 2.1",
+                                description: "Element 2.1 with tooltip",
+                                tooltip: "Hey I'm a tooltip",
                                 children: []
                             },
                             {

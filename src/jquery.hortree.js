@@ -26,11 +26,26 @@
         entryIdIndex++;
         var html = [];
         html.push('<div class="hortree-entry" data-entry-id="' + entryIdIndex + '">');
-        html.push('<div class="hortree-label">' + elem.description + '</div>');
+
+        if (elem.tooltip && elem.tooltip.toString().trim() !== '') {
+
+            html.push('<div class="hortree-label hortree-tooltip">');
+            html.push('<span class="hortree-tooltip-text">' + elem.tooltip + '</span>');
+            html.push(elem.description);
+            html.push('</div>');
+
+        } else {
+
+            html.push('<div class="hortree-label">' + elem.description + '</div>');
+
+        }
+
         if (elem.children.length) {
             html.push(branch(elem.children));
         }
+
         html.push('</div>');
+
         return html.join("\n");
     }
 
@@ -104,7 +119,7 @@
             tree.find('.hortree-label').each(function () {
 
                 // set Y offset pos where to render each line
-                if (elementIndex == 0) {
+                if (elementIndex === 0) {
                     var offsetTop = $(this).offset().top;
                     offsetY = (offsetTop * -1) + 20;
                 }
