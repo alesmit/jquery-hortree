@@ -1,5 +1,5 @@
 /*
- *  jquery-hortree - v1.0.0
+ *  jquery-hortree - v1.0.1
  *  Render an horizontal hierarchical tree from a JSON schema.
  *  https://github.com/alesmit/jquery-hortree
  *
