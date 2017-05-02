@@ -104,7 +104,19 @@
 
         // get native element position
         function getPos(el) {
-            for (var lx = 0, ly = 0; el != null; lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+            var lx = 0,
+                ly = 0;
+
+            while (el !== null) {
+                lx += el.offsetLeft;
+                ly += el.offsetTop;
+                el = el.offsetParent;
+
+                if ($('.hortree-wrapper').is(el)) {
+                    break;
+                }
+            }
+
             return {x: lx, y: ly};
         }
 
