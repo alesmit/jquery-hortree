@@ -133,7 +133,7 @@
                 // set Y offset pos where to render each line
                 if (elementIndex === 0) {
                     var offsetTop = $(this).offset().top;
-                    offsetY = (offsetTop * -1) + 20;
+                    offsetY = (offsetTop * -1) + 20 + tree.offset().top;
                 }
 
                 // if it has children then draw line
