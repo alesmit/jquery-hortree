@@ -19,6 +19,12 @@ async function build() {
         fs.writeFile('dist/jquery.hortree.min.js', minifiedJs),
         fs.writeFile('dist/jquery.hortree.min.css', minifiedCss),
     ]);
+
+    // update assets is docs (demo) folder
+    await Promise.all([
+        fs.copyFile('dist/jquery.hortree.min.js', 'docs/jquery.hortree.min.js'),
+        fs.copyFile('dist/jquery.hortree.min.css', 'docs/jquery.hortree.min.css'),
+    ]);
 }
 
 build();
