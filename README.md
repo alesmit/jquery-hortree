@@ -11,7 +11,7 @@ This jQuery plugin will render an horizontal hierarchical tree starting from a J
 
 1. Include jQuery
 2. Include [jquery.line.js](https://github.com/tbem/jquery.line) plugin (credits to [tbem](https://github.com/tbem))
-3. Include __dist/jquery.hortree.min.js__ and __dist/jquery.hortree.css__
+3. Include __dist/jquery.hortree.min.js__ and __dist/jquery.hortree.min.css__
 
 ```javascript
 $('#your-div').hortree({
@@ -38,15 +38,6 @@ You can provide a configuration object as first parameter to manage content and 
 | `onComplete`      |   No     | function  | -        | This function is called when the tree is rendered |
 
 `description` content is rendered in a `<div>` element with the class `.hortree-label`. Modify it as your need to get the best look and feel.
-
-## Project Setup
-
-This project uses [gulp](http://gulpjs.com/) as its build system.
-
-- Install gulp: `$ npm install -g gulp`
-
-1. Install dependencies: `$ npm install`
-2. Build: `$ gulp build`
 
 ## License
 
